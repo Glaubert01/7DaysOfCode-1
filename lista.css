@@ -1,0 +1,80 @@
+.consulta__virtual{
+    margin: 1.5em;
+    font-family: var(--fonte-principal);
+}
+
+.consulta__virtual-data {
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+.consulta__virtual-paciente, .consulta__virtual-bloco, .consulta__virtual-icone {
+    display: flex;
+    
+}
+
+.consulta__virtual-imagem {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding-left: 0.5em;
+}
+
+.consulta__virtual-nome {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 0 0 0em 1.3em;
+}
+
+.consulta__virtual-bloco {
+    margin: 0 1em;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+
+.consulta__virtual-texto {
+    font-size: 0.7em;
+    color: var(--cor-texto-secundario);
+    padding-left: 1em;
+}
+
+.consulta__virtual-icone  {
+    margin-bottom: 0.5em;
+}
+
+.consulta__virtual-chat {
+    padding-left: 11em;
+}
+
+.consulta__virtual-quebra {
+    background-color: var(--cor-texto-secundario);
+    opacity: 20%;
+}
+
+.consulta__virtual-horario {
+    font-size: 0.75em;
+    color: var(--fonte-principal);
+    padding-left: 0.5em;
+}
+
+.consulta__virtual-botoes {
+    margin-top: 2em;
+    
+}
+
+.consulta__virtual-video {
+    text-decoration: none;
+    background-color: var(--laranja-botao);
+    padding: 1em;
+    border-radius: 8px;
+    color: var(--cor-texto-terciario);
+}
+
+.consulta__virtual-audio {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 1em;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    color: var(--cor-texto-principal);
+    margin-left: 1em;
+}
